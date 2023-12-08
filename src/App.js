@@ -15,7 +15,11 @@ export default function App() {
     <NoteState>
       <BrowserRouter>
         <Routes>
-          
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route path="/signup" element={<Signup />} />
+          <Route exact path="/admin" element={<AdminLog username={"M@nish"} password={"M@ni$4"}/>} />
+          <Route  path="*" element={<Offline/>} />
         </Routes>
       </BrowserRouter>
       </NoteState>
