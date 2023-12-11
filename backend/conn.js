@@ -2,7 +2,7 @@ const mongoose=require('mongoose');
 const dotenv=require('dotenv')
 dotenv.config()
 
-const DB=process.env.DATABASE
+const DB="mongodb+srv://manishkulalweb:2lM0G3HUhem0ka1E@cluster0.0gomslv.mongodb.net/?retryWrites=true&w=majority"
 const connectToServer=()=>{
     try {
         mongoose.connect(DB)
