@@ -22,7 +22,7 @@ yarn-error.log*
 
 
 
-/backend/.env
+backend/.env
 /backend/.env.local
 /backend/.env.development.local
 /backend/.env.test.local

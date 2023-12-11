@@ -87,7 +87,8 @@ export default function Signup() {
       return;
     }
     setSignupText('Registering....')
-    const URL = "https://icloudnotebook.herokuapp.com";
+    // const URL = "https://icloudnotebook.herokuapp.com";
+    const URL="http://localhost:3001"
     try {
       const response = await fetch(URL + "/api/auth/signup", {
         method: "POST",
