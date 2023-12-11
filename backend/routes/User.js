@@ -64,7 +64,7 @@ router.post("/login", async (req, res) => {
       },
     };
     const token = jwt.sign(data, secretKey);
-    res.status(500).json({ message: "successssssss", token });
+    res.status(201).json({ message: "success", token });
   } catch (e) {
     res
       .status(500)
