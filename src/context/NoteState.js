@@ -6,8 +6,8 @@ const NoteState = (props) => {
   const [notes, setNotes] = useState(initialNote);
   const [error, setError] = useState();
 
-  // const URL = "https://icloudnotebook.herokuapp.com/api/note/";
-  const URL="http://localhost:3001/api/note/"
+  const URL = "https://shy-cyan-fox-tux.cyclic.app/api/note/";
+  // const URL="http://localhost:3001/api/note/"
 
   async function fetchNote(authToken) {
     try{

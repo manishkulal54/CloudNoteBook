@@ -5,8 +5,8 @@ const AdminState = (props) => {
   const initial=[]
   const [users, setUsers] = useState(initial);
   const [notes, setNotes] = useState(initial);
-  // const URL="https://icloudnotebook.herokuapp.com"
-  const URL="http://localhost:3001"
+  // const URL="https://shy-cyan-fox-tux.cyclic.app"
+  // const URL="http://localhost:3001"
 
   async function fetchAllUser() {
     try{
